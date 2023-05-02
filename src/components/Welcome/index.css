@@ -1,0 +1,38 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 55px;
+}
+
+.para {
+  color: whitesmoke;
+  font-size: 26px;
+}
+
+.button {
+  background-color: whitesmoke;
+  border: 0px;
+  color: black;
+  border-radius: 4px;
+  width: 130px;
+  height: 37px;
+}
